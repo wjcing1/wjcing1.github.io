@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="wjcing — personal portfolio." />
+    <meta name="theme-color" content="#050505" />
+    <title>wjcing</title>
+    <script src="./scripts/theme.js"></script>
+    <link rel="stylesheet" href="./styles/shared.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
+  </head>
+  <body data-page="home">
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="./index.html" aria-label="Home">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 3 19 7v10l-7 4-7-4V7Z"></path>
+          </svg>
+          <span class="brand-name">wjcing</span>
+        </a>
+
+        <nav class="nav" aria-label="Site sections">
+          <a class="nav-link is-active" href="./index.html">Home</a>
+          <a class="nav-link" href="./about.html">About</a>
+          <a class="nav-link" href="./projects.html">Projects</a>
+          <a class="nav-link" href="./contact.html">Contact</a>
+        </nav>
+
+        <div class="session-cluster" aria-label="Session">
+          <div class="status-chip">
+            <span class="status-dot" aria-hidden="true"></span>
+            Available
+          </div>
+          <button
+            class="theme-toggle"
+            type="button"
+            data-theme-toggle
+            aria-label="Switch to light mode"
+            aria-pressed="false"
+            title="Switch to light mode"
+          >
+            <svg class="theme-toggle-icon theme-toggle-icon--moon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"></path>
+            </svg>
+            <svg class="theme-toggle-icon theme-toggle-icon--sun" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 3v2"></path><path d="M12 19v2"></path>
+              <path d="M3 12h2"></path><path d="M19 12h2"></path>
+              <path d="m5.6 5.6 1.4 1.4"></path><path d="m17 17 1.4 1.4"></path>
+              <path d="m5.6 18.4 1.4-1.4"></path><path d="m17 7 1.4-1.4"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      <main class="page-main" aria-label="Home">
+        <section class="hero">
+          <div class="hero-kicker">
+            <span class="status-dot" aria-hidden="true"></span>
+            Portfolio · 2026
+          </div>
+
+          <h1 class="hero-title">
+            Building things<br />
+            <em class="accent">at the seams of</em><br />
+            code &amp; design.
+          </h1>
+
+          <p class="hero-copy">
+            我是 wjcing — 在产品、设计和工程之间游走的独立创作者。
+            写代码、做空间、训交易机器人、研究 AI 工作流。
+            这里是我留下的一些痕迹。
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn-invert" href="./projects.html">
+              View Projects
+              <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14"></path><path d="m13 5 7 7-7 7"></path>
+              </svg>
+            </a>
+            <a class="btn-ghost" href="./about.html">About Me</a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="hero-meta-item">
+              <span class="hero-meta-label">Location</span>
+              <span class="hero-meta-value">Independent · Remote</span>
+            </div>
+            <div class="hero-meta-item">
+              <span class="hero-meta-label">Focus</span>
+              <span class="hero-meta-value">AI Workflows · Product Design</span>
+            </div>
+            <div class="hero-meta-item">
+              <span class="hero-meta-label">Stack</span>
+              <span class="hero-meta-value">Python · TypeScript · Claude</span>
+            </div>
+            <div class="hero-meta-item">
+              <span class="hero-meta-label">Status</span>
+              <span class="hero-meta-value">Open to collaborations</span>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-foot">© 2026 wjcing — Crafted in the dark.</footer>
+    </div>
+  </body>
+</html>

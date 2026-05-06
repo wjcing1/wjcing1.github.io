@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="About wjcing." />
+    <meta name="theme-color" content="#050505" />
+    <title>About · wjcing</title>
+    <script src="./scripts/theme.js"></script>
+    <link rel="stylesheet" href="./styles/shared.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
+  </head>
+  <body data-page="about">
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="./index.html" aria-label="Home">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 3 19 7v10l-7 4-7-4V7Z"></path>
+          </svg>
+          <span class="brand-name">wjcing</span>
+        </a>
+
+        <nav class="nav" aria-label="Site sections">
+          <a class="nav-link" href="./index.html">Home</a>
+          <a class="nav-link is-active" href="./about.html">About</a>
+          <a class="nav-link" href="./projects.html">Projects</a>
+          <a class="nav-link" href="./contact.html">Contact</a>
+        </nav>
+
+        <div class="session-cluster">
+          <div class="status-chip"><span class="status-dot" aria-hidden="true"></span>Available</div>
+          <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to light mode">
+            <svg class="theme-toggle-icon theme-toggle-icon--moon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"></path>
+            </svg>
+            <svg class="theme-toggle-icon theme-toggle-icon--sun" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 3v2"></path><path d="M12 19v2"></path>
+              <path d="M3 12h2"></path><path d="M19 12h2"></path>
+              <path d="m5.6 5.6 1.4 1.4"></path><path d="m17 17 1.4 1.4"></path>
+              <path d="m5.6 18.4 1.4-1.4"></path><path d="m17 7 1.4-1.4"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      <main class="page-main" aria-label="About">
+        <div class="section-wrap">
+          <div class="section-head">
+            <div class="section-kicker">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="8" r="4"></circle>
+                <path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"></path>
+              </svg>
+              <h1>About.</h1>
+            </div>
+            <span class="kicker-label">/01 — Profile</span>
+          </div>
+
+          <div class="about-grid">
+            <article class="about-lede">
+              <h2>独立创作者,<br/>横跨设计与代码。</h2>
+              <p>
+                我是 wjcing。背景是建筑学和空间设计,过去几年逐渐把战场移到了软件——
+                做产品、写代码、训练交易机器人、研究 AI 工作流。
+              </p>
+              <p>
+                喜欢同时调动多种思维:用建筑师的尺度感处理信息层级,
+                用工程师的系统观拆解复杂流程,用设计师的直觉打磨细节。
+                目前在用 Claude / GPT / 自建 agent 重新组织自己的工作方式。
+              </p>
+              <p>
+                如果你也在做有意思的工具、空间、内容或交易系统,欢迎聊聊。
+              </p>
+            </article>
+
+            <aside class="about-side">
+              <section class="about-card">
+                <header class="about-card-head">
+                  <span class="about-card-kicker">Currents</span>
+                </header>
+                <div class="tag-row">
+                  <span class="tag">Claude Code</span>
+                  <span class="tag">Agent SDK</span>
+                  <span class="tag">Trading Bots</span>
+                  <span class="tag">Spatial Computing</span>
+                  <span class="tag">OSM / GIS</span>
+                  <span class="tag">Product Design</span>
+                </div>
+              </section>
+
+              <section class="about-card">
+                <header class="about-card-head">
+                  <span class="about-card-kicker">Trajectory</span>
+                </header>
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="timeline-year">2026</span>
+                    <div class="timeline-body">
+                      <span class="timeline-title">ZM Studio · Workspace</span>
+                      <span class="timeline-note">个人 portfolio 工作台、AI 工作流实验场</span>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="timeline-year">2025</span>
+                    <div class="timeline-body">
+                      <span class="timeline-title">Trading Bot · AWS Lightsail</span>
+                      <span class="timeline-note">Bybit ETH/USDT 永续机器人,云端部署</span>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="timeline-year">2024</span>
+                    <div class="timeline-body">
+                      <span class="timeline-title">OSM Site Analysis</span>
+                      <span class="timeline-note">基于 OpenStreetMap 的场地分析 skill</span>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="timeline-year">·</span>
+                    <div class="timeline-body">
+                      <span class="timeline-title">Architectural Background</span>
+                      <span class="timeline-note">建筑学训练,后转向计算 / 设计</span>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </aside>
+          </div>
+        </div>
+      </main>
+
+      <footer class="site-foot">© 2026 wjcing — Crafted in the dark.</footer>
+    </div>
+  </body>
+</html>

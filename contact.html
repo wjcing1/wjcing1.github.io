@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Get in touch with wjcing." />
+    <meta name="theme-color" content="#050505" />
+    <title>Contact · wjcing</title>
+    <script src="./scripts/theme.js"></script>
+    <link rel="stylesheet" href="./styles/shared.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
+  </head>
+  <body data-page="contact">
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="./index.html" aria-label="Home">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 3 19 7v10l-7 4-7-4V7Z"></path>
+          </svg>
+          <span class="brand-name">wjcing</span>
+        </a>
+
+        <nav class="nav" aria-label="Site sections">
+          <a class="nav-link" href="./index.html">Home</a>
+          <a class="nav-link" href="./about.html">About</a>
+          <a class="nav-link" href="./projects.html">Projects</a>
+          <a class="nav-link is-active" href="./contact.html">Contact</a>
+        </nav>
+
+        <div class="session-cluster">
+          <div class="status-chip"><span class="status-dot" aria-hidden="true"></span>Available</div>
+          <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to light mode">
+            <svg class="theme-toggle-icon theme-toggle-icon--moon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"></path>
+            </svg>
+            <svg class="theme-toggle-icon theme-toggle-icon--sun" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 3v2"></path><path d="M12 19v2"></path>
+              <path d="M3 12h2"></path><path d="M19 12h2"></path>
+              <path d="m5.6 5.6 1.4 1.4"></path><path d="m17 17 1.4 1.4"></path>
+              <path d="m5.6 18.4 1.4-1.4"></path><path d="m17 7 1.4-1.4"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      <main class="page-main" aria-label="Contact">
+        <div class="section-wrap">
+          <div class="section-head">
+            <div class="section-kicker">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3 7h18v10H3z"></path>
+                <path d="m3 7 9 7 9-7"></path>
+              </svg>
+              <h1>Contact.</h1>
+            </div>
+            <span class="kicker-label">/03 — Reach out</span>
+          </div>
+
+          <p class="section-copy">
+            想聊产品、设计、AI 工作流、量化交易,或者只是打个招呼,随时联系。
+            最快是邮件和 GitHub。
+          </p>
+
+          <div class="contact-grid">
+            <a class="contact-card" href="mailto:wjcink@gmail.com">
+              <header class="contact-card-head">
+                <span class="contact-card-kicker">Email</span>
+                <svg class="contact-card-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M3 7h18v10H3z"></path>
+                  <path d="m3 7 9 7 9-7"></path>
+                </svg>
+              </header>
+              <div>
+                <div class="contact-card-title">wjcink@gmail.com</div>
+                <p class="contact-card-note">合作、咨询、写信都欢迎。一般 24 小时内回。</p>
+              </div>
+              <span class="contact-card-arrow">
+                Send a note
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"></path><path d="m13 5 7 7-7 7"></path></svg>
+              </span>
+            </a>
+
+            <a class="contact-card" href="https://github.com/wjcing1" target="_blank" rel="noopener noreferrer">
+              <header class="contact-card-head">
+                <span class="contact-card-kicker">GitHub</span>
+                <svg class="contact-card-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M9 19c-4 1.5-4-2.5-6-3"></path>
+                  <path d="M15 22v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 19 5.77 5.07 5.07 0 0 0 18.91 2S17.73 1.65 15 3.48a13.38 13.38 0 0 0-7 0C5.27 1.65 4.09 2 4.09 2A5.07 5.07 0 0 0 4 5.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 8 19.13V22"></path>
+                </svg>
+              </header>
+              <div>
+                <div class="contact-card-title">@wjcing1</div>
+                <p class="contact-card-note">代码、笔记、实验仓库都在这里。</p>
+              </div>
+              <span class="contact-card-arrow">
+                Open profile
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7"></path><path d="M8 7h9v9"></path></svg>
+              </span>
+            </a>
+          </div>
+
+          <section class="contact-banner">
+            <div class="contact-banner-title">Currently open to collaborations.</div>
+            <p class="contact-banner-note">
+              特别感兴趣的:AI agent / Claude Code 工具链、空间计算、量化系统、
+              以及任何"工程 × 设计"边界上的项目。
+            </p>
+          </section>
+        </div>
+      </main>
+
+      <footer class="site-foot">© 2026 wjcing — Crafted in the dark.</footer>
+    </div>
+  </body>
+</html>
