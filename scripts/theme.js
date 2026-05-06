@@ -3,13 +3,7 @@
   const root = document.documentElement;
 
   const stored = localStorage.getItem(STORAGE_KEY);
-  if (stored === "light" || stored === "dark") {
-    root.dataset.theme = stored;
-  } else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches) {
-    root.dataset.theme = "light";
-  } else {
-    root.dataset.theme = "dark";
-  }
+  root.dataset.theme = stored === "light" ? "light" : "dark";
 
   function applyToggleState() {
     const isLight = root.dataset.theme === "light";
